@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Работа с формами</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Работа с формами</h1>
+        <form action="action.php" method="POST" name="test-from">
+            <fieldset>
+                <legend>Поля для ввода</legend>
+                <p>
+                    <label for="Firstname">Имя</label>
+                    <input name="name" type="text" id="name" placeholder="Введите имя" required>
+                </p>
+                <p>
+                    <label for="patronymic">Отчество</label>
+                    <input name="lastname" type="text" id="patronymic" placeholder="Введите отчество" required>
+                </p>
+                <p>
+                    <label for="Lastname">Фамилия</label>
+                    <input type="text" id="lastname" placeholder="Введите фамилию" required>
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Введите email" required>
+                </p>
+                <p>
+                    <label for="login">Логин</label>
+                    <input type="text" id="login" placeholder="Придумайте логин" required>
+                </p>
+                  <p>
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" placeholder="Придумайте пароль" required>
+                </p>
+                <p>
+                    <input type="reset" id="reset">
+                    <input type="submit">
+                </p>
+            </fieldset>
+        </form>
+        <a href="index.html">На главную</a>
+    </body>
+    </html>

@@ -1,0 +1,9 @@
+Функции
+
+alert ('...'); //Выводит сообщение
+console.log ();
+toLowerCase('...');
+
+
+jQuery
+
